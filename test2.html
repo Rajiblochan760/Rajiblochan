@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: blueviolet;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 100vh;
+            }
+            .content{
+                width: 600px;
+            }
+            .nav-bar{
+                width: 90%;
+                height: 10%;
+                display: flex;
+                align-items: center;
+                display: flex;
+                justify-content: right;
+            }
+            .nav-text{
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                margin-left: 50px;
+            }
+            .nav-text:hover{
+                
+                background-color: #ff0077;
+                border-radius: 50px;
+                border-bottom: 2px solid black;
+            }
+            .card {
+                width: 300px;
+                height: 450px;
+                background: white;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                padding: 50px;
+              }
+            .card h1 {
+                font-size: 24px;
+                color: rgb(6, 6, 107) ;
+                text-align: center;
+            }
+            .card form {
+                display: flex;
+                flex-direction: column;
+            }
+          
+            .card input {
+                margin: 10px 0;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 30px;
+            }
+          
+            .card button {
+                margin: 10px 0;
+                padding: 10px;
+                border: none;
+                border-radius: 30px;
+                background: #4a00e0;
+                color: white;
+                font-weight: bold;
+            }
+          
+            .card p {
+                margin: 10px 0;
+                font-size: 14px;
+                color: #777;
+            }
+          
+            .card a {
+                color: #4a00e0;
+            }
+            .social {
+                display: flex;
+                align-items: center;
+            }
+          
+            .social img {
+                width: 30px;
+                height: 30px;
+                margin-right: 10px;
+            }
+        
+            .content h1 {
+                font-size: 55px;
+                color: white;
+            }
+          
+            .content p {
+                font-size: 20px;
+                color: white;
+            }
+          
+            .content button {
+                margin-top: 20px;
+                padding: 15px 30px;
+                border: none;
+                border-radius: 5px;
+                background: #ff0077;
+                color: white;
+                font-weight: bold; 
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav-bar"> 
+            <a href="#" class="nav-text">Overview</a> 
+            <a href="#" class="nav-text">Price</a> 
+            <a href="#" class="nav-text">Blog</a> 
+            <a href="#" class="nav-text">Feedback</a>
+            <a href="#" class="nav-text">Purchase</a> 
+        </div>
+        <div class="container"> 
+            <div class="content"> 
+                <h1>Generate Awesome Web Pages</h1> 
+                <p>The most important part of the page Startup is the samples. The samples form a set of 25 usable pages you can use as is or you can add new blocks. </p> 
+                <button>Learn More</button> 
+            </div>
+            <div class="card"> 
+                <h1>Sign Up Now</h1> 
+                <form> 
+                <input type="email" placeholder="Email"> 
+                <input type="password" placeholder="Password"> 
+                <p><input type="checkbox"> I agree to the terms of service</p> 
+                <button>Sign In</button> 
+                <p>--------------------------------or-----------------------------</p>
+                <button style="background-color: rgb(7, 120, 165);">Login via Twitter</button>
+                 
+                <div class="social"> 
+                <p>Or Sign in with:</p>
+                <img src="google.jpg" alt="Google" onclick="#"><img src="facebook.jpg" alt="Facebook" onclick="#"> </div>
+                <p>Don't have an account? <a href="#">Sign Up</a></p>
+                </div>
+                </form> 
+            </div>
+        </div> 
+            
+    </body>
+</html>
